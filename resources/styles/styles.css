@@ -1,6 +1,6 @@
-* {
+/** {
   border: 1px solid pink;
-}
+}*/
 body{
   background-color: black;
   margin: 0px;
@@ -13,29 +13,34 @@ h5,
 span,
 p{
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
+  /*font-size: 22px;*/
   color: seashell;
   opacity: 0.9;
   text-align: center;
 }
-
+/* -----------    Navigation   --------------*/
 header{
+  position: fixed;
+  width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: black;
+  z-index: 10;
+}
+
+header span,
+  .logo{
+  margin: 0 10px;
 }
 
 .logo {
   height: 50px;
   margin-right: auto;
-  margin-left: 10px;
 }
 
-header span {
-  margin: 0 10px;
-}
 
 header a{
   font-size: 22px;
@@ -43,8 +48,83 @@ header a{
   opacity: 0.9;
   text-decoration: underline;
 }
+/* -----------    Hero   --------------*/
+.main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  top: 70px;
+}
 .hero {
   background-image: url("../img-mission-background.jpg");
   width: 1200px;
   height: 700px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.hero-copy{
+  background-color: black;
+}
+
+/* -----------    Tea of the Month   --------------*/
+.tea-month{
+  width: 1000px;
+}
+.tea-gallery{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+
+}
+
+.tea-gallery img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.img-title{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.img-title h4{
+  margin:0;
+}
+/* -----------    Locations   --------------*/
+.locations{
+  background-image: url("../img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.locations-title h2{
+  margin: 0px;
+}
+.locations-address{
+  display: flex;
+  justify-content: center;
+}
+
+.address{
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 15px 20px;
+}
+
+/* -----------    Contact   --------------*/
+.contact{
+  height: 200px;
+}
+
+/* -----------    Copyright   --------------*/
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
