@@ -19,9 +19,9 @@ You'll find an outline of the project created as part of [Codecademy's Freelance
 
 
 * **Tammy** the tea drinking customer.
- * Tea lover
- * Drinks tea daily
- * Talks about Tea to friends
+ * Tea lover.
+ * Drinks tea daily.
+ * Talks about tea to friends.
  * Orders new tea on a weekly basis.
 
 ## User Stories
@@ -29,7 +29,7 @@ You'll find an outline of the project created as part of [Codecademy's Freelance
 * As Tammy, I want to see a Tea Cozy Web so that I can learn about tea.
 
 **Non functional requirements include**
- * Fracine designs landing page per spec found in `img-tea-cozy-redline.jpg`.
+ * Francine designs landing page per spec found in `img-tea-cozy-redline.jpg`.
  * Tammy sees images.
  * Tammy sees the site in a flexible layout.
  * Tammy sees a sticky header.
@@ -39,4 +39,5 @@ You'll find an outline of the project created as part of [Codecademy's Freelance
 * Submit project for review before April 25, 2017.
 
 ## Open questions
-* The requirement found on the design spec `img-tea-cozy-redline.jpg` states that `font-size: 22px` as a global style. This doesn't seem right, but I added it as specified. Happy to change if need be. - Francine.
+* The requirement found on the design spec `img-tea-cozy-redline.jpg` states that `font-size: 22px` as a global style. This doesn't seem right, but I added it as specified.
+Happy to change if needed. - Francine.
