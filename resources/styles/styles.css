@@ -13,7 +13,7 @@ h5,
 span,
 p{
   font-family: Helvetica, sans-serif;
-  /*font-size: 22px;*/
+  font-size: 22px;
   color: seashell;
   opacity: 0.9;
   text-align: center;
@@ -41,7 +41,6 @@ header span,
   margin-right: auto;
 }
 
-
 header a{
   font-size: 22px;
   color: seashell;
@@ -50,11 +49,12 @@ header a{
 }
 /* -----------    Hero   --------------*/
 .main{
+  position: relative;
+  top: 70px;
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  top: 70px;
 }
 .hero {
   background-image: url("../img-mission-background.jpg");
@@ -72,12 +72,11 @@ header a{
 .tea-month{
   width: 1000px;
 }
+
 .tea-gallery{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-
-
 }
 
 .tea-gallery img{
@@ -94,6 +93,7 @@ header a{
 .img-title h4{
   margin:0;
 }
+
 /* -----------    Locations   --------------*/
 .locations{
   background-image: url("../img-locations-background.jpg");
@@ -103,9 +103,11 @@ header a{
   justify-content: center;
   flex-flow: column nowrap;
 }
+
 .locations-title h2{
   margin: 0px;
 }
+
 .locations-address{
   display: flex;
   justify-content: center;
@@ -118,6 +120,12 @@ header a{
   margin: 15px 20px;
 }
 
+/* -----------    Footer   --------------*/
+footer {
+  position: relative;
+  top: 70px;
+}
+
 /* -----------    Contact   --------------*/
 .contact{
   height: 200px;
@@ -126,5 +134,6 @@ header a{
 /* -----------    Copyright   --------------*/
 .copyright{
   text-align: left;
-  margin-left: 20px;
+  position: relative;
+  left: 20px;
 }
